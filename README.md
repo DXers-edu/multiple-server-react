@@ -82,8 +82,8 @@ VITE_API_BASE_URL=주소
 module.exports = {
    apps : [{
       name: 'multiple-server-react',
-      script: 'serve -s ./dist -l 3000',
-      watch: './dist'
+      script: 'serve -s multiple-server-react/dist -l 3000',
+      watch: 'multiple-server-react/dist'
    }]
 };
 ```
